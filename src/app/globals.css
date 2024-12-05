@@ -7,31 +7,28 @@ body {
   font-family: var(--font-geist-sans);
 }
 
-.header {
+/* .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #f1f1f1;
   padding: 1rem;
   z-index: 1000;
-}
+} */
 
 .app-wrapper {
-  margin-top: 60px; /* Height of header */
+  margin-top: 40px; /* Starting the content */
 }
 
 .sidebar {
   position: fixed;
-  top: 60px; /* Height of header */
+  top: 100px; /* Height of header */
   left: 0;
-  width: 200px;
-  height: calc(100vh - 60px);
-  background-color: #d1d1d1;
-  padding: 1rem;
+  width: 230px;
+  padding: 2rem 0 1rem 1rem;
 }
 
 .content {
-  margin-left: 220px; /* Width of sidebar + some margin */
+  margin-left: 250px; /* Width of sidebar + some margin */
   padding: 1rem;
 }
