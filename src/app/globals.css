@@ -5,6 +5,10 @@
 body {
   margin: 0;
   font-family: var(--font-geist-sans);
+  overflow-y: scroll;
+}
+html {
+  scrollbar-gutter: stable;
 }
 
 /* .header {
