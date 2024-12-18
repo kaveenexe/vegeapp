@@ -1,14 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaSearch, FaBell } from 'react-icons/fa';
-
+import Logo from '@/Images/logo/Logo.png';
 const Header = ({ activeTab }) => {
   return (
     <header className="header flex items-center justify-between w-full bg-white py-2">
       {/* Logo Section */}
       <div className="p-4 bg-white">
         <Image
-          src={"/Images/logo/logo.png"}
+          src={Logo}
           width={150}
           height={50}
           alt="Logo"
