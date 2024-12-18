@@ -8,7 +8,7 @@ const Header = ({ activeTab }) => {
       {/* Logo Section */}
       <div className="p-4 bg-white">
         <Image
-          src="/Images/logo/logo.png"
+          src={"/Images/logo/logo.png"}
           width={150}
           height={50}
           alt="Logo"
@@ -34,7 +34,7 @@ const Header = ({ activeTab }) => {
           {/* Profile Section */}
           <div className="flex items-center space-x-2">
             <Image
-              src="/Images/profile/user.jpg"
+              src=""
               width={40}
               height={40}
               alt="User"
