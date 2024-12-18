@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  margin: 0;
+  margin: 4rem 0 0 0;
   font-family: var(--font-geist-sans);
   overflow-y: scroll;
 }
@@ -11,14 +11,14 @@ html {
   scrollbar-gutter: stable;
 }
 
-/* .header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1rem;
+  
   z-index: 1000;
-} */
+}
 
 .app-wrapper {
   margin-top: 40px; /* Starting the content */
