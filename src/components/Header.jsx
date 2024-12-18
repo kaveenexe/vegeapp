@@ -4,7 +4,7 @@ import { FaSearch, FaBell } from 'react-icons/fa';
 
 const Header = ({ activeTab }) => {
   return (
-    <header className="flex items-center justify-between w-full bg-white py-2">
+    <header className="header flex items-center justify-between w-full bg-white py-2">
       {/* Logo Section */}
       <div className="p-4 bg-white">
         <Image
